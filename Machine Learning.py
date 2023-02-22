@@ -223,6 +223,7 @@ for k in df.Smiles:
     rdk.append(a)
 
 df['RDkit'] = rdk
+df.to_csv(f"{dpath}/flavonoids.csv", sep=',', index=False)
 
 # ################################################# 4_real_test ########################################################
 # Load binary data
