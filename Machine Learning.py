@@ -177,19 +177,37 @@ for k in index:
 
 # SMILES of Error Cas number
 smi_dic = {'6068-76-4': 'C1=CC=C(C(=C1)C2=C(C(=O)C3=CC=CC=C3O2)O)O',
+           '55977-09-8': 'C1=CC=C2C(=C1)C(=O)C(=C(O2)C3=CC(=CC=C3)O)O',
+           '14919-49-4': 'C1=CC=C2C(=C1)C(=O)C(=C(O2)C3=CC=C(C=C3)O)O',
            '6665-69-6': 'C1=CC=C(C=C1)C2=C(C(=O)C3=C(C=CC=C3O2)O)O',
            '108238-41-1': 'C1=CC=C(C=C1)C2=C(C(=O)C3=C(O2)C=CC(=C3)O)O',
+           '253195-19-6': 'C1=CC(=CC=C1C2=C(C(=O)C3=C(O2)C=CC(=C3)O)O)O',
+           '151698-64-5': 'C1=CC(=CC(=C1)O)C2=C(C(=O)C3=C(O2)C=C(C=C3)O)O',
+           '92439-38-8': 'C1=CC=C2C(=C1)C(=O)C(=C(O2)C3=CC(=C(C(=C3)O)O)O)O',
+           '142646-44-4': 'C1=CC=C(C=C1)C2=C(C(=O)C3=C(O2)C=C(C(=C3O)O)O)O',
+           '108239-98-1': 'C1=CC(=C(C(=C1)O)O)C2=C(C(=O)C3=C(O2)C=CC(=C3)O)O',
            '1429-28-3': 'C1=CC(=CC=C1C2=C(C(=O)C3=C(O2)C(=C(C=C3)O)O)O)O',
            '28449-61-8': 'C1=C(C=C(C=C1O)O)C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O',
+           '489-58-7': 'C1=CC(=C(C=C1C2=C(C(=O)C3=C(O2)C(=C(C=C3)O)O)O)O)O',
+           '4431-48-5': 'C1=CC(=CC=C1C2=C(C(=O)C3=C(C(=C(C(=C3O2)O)O)O)O)O)O',
            '577-24-2': 'C1=C(C=C(C(=C1O)O)O)C2=C(C(=O)C3=C(O2)C(=C(C=C3O)O)O)O',
            '87926-83-8': 'C1=CC(=C(C=C1C2=C(C(=O)C3=C(C(=C(C(=C3O2)O)O)O)O)O)O)O'}
-smi_dic_oh = [1, 0, 1, 0, 0, 0, 1]
+smi_dic_oh = [1, 1, 1, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1]
 
 smiles.append(smi_dic['6068-76-4'])
+smiles.append(smi_dic['55977-09-8'])
+smiles.append(smi_dic['14919-49-4'])
 smiles.append(smi_dic['6665-69-6'])
 smiles.append(smi_dic['108238-41-1'])
+smiles.append(smi_dic['253195-19-6'])
+smiles.append(smi_dic['151698-64-5'])
+smiles.append(smi_dic['92439-38-8'])
+smiles.append(smi_dic['142646-44-4'])
+smiles.append(smi_dic['108239-98-1'])
 smiles.append(smi_dic['1429-28-3'])
 smiles.append(smi_dic['28449-61-8'])
+smiles.append(smi_dic['489-58-7'])
+smiles.append(smi_dic['4431-48-5'])
 smiles.append(smi_dic['577-24-2'])
 smiles.append(smi_dic['87926-83-8'])
 antioxidant = cas_ao + smi_dic_oh
