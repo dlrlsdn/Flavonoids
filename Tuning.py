@@ -18,8 +18,6 @@ degree_svm = mnl.mki(1, 1, degree_svm, 20)
 
 # hyperparameter dict
 hp_svc = {'C': C_svm, 'gamma': gamma_svm, 'kernel': ['linear', 'rbf', 'sigmoid']}
-hp_svc_poly = {'C': C_svm, 'gamma': gamma_svm, 'kernel': ['poly'], 'degree': degree_svm}
-hp_svc_linear = {'C': C_svm, 'kernel': ['linear']}
 
 # #### Make param_grid for Logistic Regression
 # default --> [class_weight, dual, warm_start]
